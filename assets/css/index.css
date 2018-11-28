@@ -2,6 +2,7 @@
   background-image: url("baking-bg.jpg");
   min-height: 150vh;
   min-width: 100vw;
+  background-size: cover;
 }
 
 #home_main{

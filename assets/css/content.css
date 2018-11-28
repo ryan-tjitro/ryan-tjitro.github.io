@@ -1,5 +1,6 @@
 .header{
-  background-image: url("eggs.jpg");
+  background-image: url("eggs.png");
+  background-size: cover;
 }
 
 #recipes{
