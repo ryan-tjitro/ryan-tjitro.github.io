@@ -1,0 +1,117 @@
+.header{
+  background-image: url("eggs.jpg");
+}
+
+#recipes{
+  background-color: #E5E8D0;
+  border-radius: 25px;
+}
+
+#tags{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  color: white;
+}
+
+#main_text{
+  background-color: #E5E8D0;
+}
+
+.content_body{
+  display: flex;
+  flex-direction: column;
+}
+
+.content_row{
+  display: flex;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  min-width: 65vw;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#main_text{
+  width: 65vw;
+  height: 40vh;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+#tags, #recipes{
+  min-width: 40%;
+  min-height: 40vh;
+}
+
+#section_options{
+  background-color: #300A0A;
+  width: 10vw;
+  color: white;
+}
+
+.section_label{
+  font-size: 25px;
+  padding-left: 2vw;
+}
+
+.main_header, #recipe_header, #tags_header{
+  font-size: 40px;
+  margin: 10px 20px;
+}
+
+.top_row{
+  position: relative;
+  top: 2.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.read_more{
+  padding-right: 5px;
+}
+
+.text_area, .recipe, .tag{
+  font-size: 25px;
+  padding: 0px 20px;
+  line-height: 40px;
+}
+
+.text_area li {
+  margin-left: 40px;
+}
+
+#pairing_text{
+  column-count: 2;
+}
+
+.text_area{
+  width: 50vw;
+  text-indent: 25px;
+}
+
+@media (max-width: 1000px){
+  #main_text{
+    overflow: scroll;
+  }
+}
+
+.info_text_area{
+  position: relative;
+  top: -2.5vh;
+  padding: 2.5vh;
+}
+
+#recipe_list{
+  column-count: 2;
+}
+
+.hidden{
+  display: none;
+}
+
+.footer{
+  position: relative;
+  top: 5vh;
+}

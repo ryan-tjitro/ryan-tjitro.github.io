@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> The Big Bread Theory </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/search.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/scripts/script.js"></script>
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="index.html"> <img id="logo" class="navbar_item hover_fade" src="assets/img/logo.png" height="70" /> </a>
+      <div id="nav_option_container">
+        <input class="hidden_search" type="text" placeholder="Let's bag this baguette">
+        <a href="search.html"> <img class="hidden_search_icon hover_fade" src="assets/img/search_icon.png" height="25" /> </a>
+        <a class="hide" href="techniques.html"> <p class="navbar_item hover_fade"> Techniques </p> </a>
+        <a class="hide" href="ingredients.html"> <p class="navbar_item hover_fade"> Ingredients </p> </a>
+        <a class="hide" href="about.html"> <p class="navbar_item hover_fade"> About </p> </a>
+        <p class="navbar_item" id="search_search"> Search </p>
+        </div>
+      </div>
+
+      <div class="search_body">
+        <input id="searchbar" type="text" placeholder="Let's get this bread">
+        <img class="search_icon hover_fade" src="assets/img/search_icon.png" height="30">
+        <p id="search_identifier"> Search results for "yammy" </p>
+        <div class="list" id="search_results">
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/eggs.jpg" />
+            <p class="search_text"> Eggs </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/yeast.jpg" />
+            <p class="search_text"> Yeast </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/pandan.jpg" />
+            <p class="search_text"> Pandan </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/lemon.jpg" />
+            <p class="search_text"> Lemons </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/nutmege.jpg" />
+            <p class="search_text"> Nutmeg </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/bench scraper.jpg" />
+            <p class="search_text"> Bench Scraper </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/ramekin.jpg" />
+            <p class="search_text"> Ramekin </p>
+          </div> </a>
+
+          <a href="content.html"> <div class="result hover_expand">
+            <img class="result_img" src="assets/img/palm sugar.jpg" />
+            <p class="search_text"> Palm Sugar </p>
+          </div> </a>
+
+          </div>
+        <div id="arrows">
+          <img class="hover_fade" src="assets/img/left_double_arrow.png" height="30">
+          <img class="hover_fade" src="assets/img/left_arrow.png" height="30">
+          <p> Page 1 of 3 </p>
+          <img class="hover_fade" src="assets/img/right_arrow.png" height="30">
+          <img class="hover_fade" src="assets/img/right_double_arrow.png" height="30">
+          </div>
+
+          <div class="footer">
+            <p class="footer_text hover_fade"> Suggest an Addition or Correction </p>
+          </div>
+          <div id="correction_form">
+            <p id="suggestion_title"> Make a Suggestion </p>
+            <p> Email </p>
+            <input id="email_input" type="text">
+            <p> Message </p>
+            <textarea id="message_input" rows="10" cols="35" type="text"> </textarea>
+            <div id="button_row">
+              <p id="cancel_button" class="hover_fade"> Cancel </p>
+              <p id="submit_button" class="hover_fade"> Submit </p>
+            </div>
+          </div>
+    </body>
+</html>

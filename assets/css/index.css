@@ -1,0 +1,95 @@
+#main_view{
+  background-image: url("baking-bg.jpg");
+  min-height: 150vh;
+  min-width: 100vw;
+}
+
+#home_main{
+  background: var(--transparent-bg);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--rounded);
+  top: 50vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 50vh
+}
+
+#home_searchbar{
+  border-radius: var(--round);
+  width: 30vw;
+  height: 40px;
+}
+
+#explore{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#explore_image_container{
+  display: flex;
+  flex-direction: column;
+}
+
+.explore_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+  min-width: 80vw;
+}
+
+.explore_image_section{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background-color: white;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.explore_image{
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.explore_image_text{
+  opacity: 0;
+  color: white;
+  position: relative;
+  top: -75%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.explore_image_section:hover .explore_image_text{
+  opacity: 1;
+}
+
+.explore_image_section:hover img{
+  filter: brightness(50%);
+}
+
+.search_icon{
+  position: relative;
+  top: -5vh;
+  left: 14vw;
+}
+
+#main_gradient{
+  position: absolute;
+  top: 101vh;
+  width: 100vw;
+  height: 50vh;
+  background-image: linear-gradient(rgba(90, 9, 9, 0) 0%, rgba(90, 9, 9, 1) 80%);
+}
